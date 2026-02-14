@@ -1,0 +1,122 @@
+p{
+  margin: 0;
+}
+
+.about_Container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 5rem;
+}
+.about_Container > h1 {
+  font-family: "Inter";
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.highlighted_Text {
+  color: #ff6d1f;
+  opacity: 1;
+}
+.about_Container > p {
+  font-family: "Inter";
+  font-size: 1.8rem;
+  /* margin-top: 2rem; */
+  width: 60%;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+  line-height: 2.5rem;
+
+  font-weight: 400;
+}
+.about_Container > p:nth-of-type(3) {
+  margin-top: 2.5rem;
+  opacity: 0.8;
+}
+
+.about_buttons {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.download_btn {
+  width: 15rem !important;
+  /* margin-block: 2rem; */
+  height: 3rem !important;
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  /* padding-inline: 1rem;
+  padding-block: 1.8rem; */
+  box-shadow:
+    0 3px 6px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff;
+  align-items: center;
+  cursor: pointer;
+}
+.view_certificate_btn {
+  width: 15rem !important;
+  /* margin-block: 2rem; */
+  height: 3rem !important;
+  gap: 0.4rem;
+
+  border-radius: 15px;
+  display: flex;
+  color: black;
+  background-color: #f5e7c6;
+  justify-content: center;
+  align-items: center;
+  /* padding-inline: 1rem; */
+  /* padding-block: 1.8rem; */
+  box-shadow:
+    0 3px 6px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff;
+  cursor: pointer;
+}
+.download_btn p {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+/* eyeicon */
+#eye_icon {
+  width: 1.3rem;
+  height: 1.4rem;
+  /* color: black !important; */
+}
+
+/* socialmedia links image */
+
+.socialmedia_links img {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 1;
+  /* border-radius: 50px; */
+  /* margin-inline: 0.8rem; */
+}
+.socialmedia_links {
+  display: flex;
+  gap: 5rem;
+  margin-block: 4rem;
+}
+#githubicon_container {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: white;
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+  border-radius: 200px;
+  padding: 0;
+}
+

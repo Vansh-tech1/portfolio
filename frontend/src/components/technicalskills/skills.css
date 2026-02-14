@@ -1,0 +1,118 @@
+.skills_container h1 {
+  opacity: 1;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 4.5rem;
+}
+.skills_container {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  margin-top: 9rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills_container p {
+  color: white;
+  opacity: 0.5;
+}
+
+.skills_menu {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+  height: 5rem !important;
+  width: 70%;
+
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(43, 43, 43); */
+  /* padding-inline: 1rem;
+  padding-block: 1.8rem; */
+  /* box-shadow:
+    0 3px 6px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff; */
+  align-items: center;
+  gap: 80px;
+}
+
+.skills_options {
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+.skills_options_active {
+  background-color: rgb(32, 32, 32);
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.tech_skill_logo {
+  height: 5rem;
+  width: 10rem;
+  /* border: 1px solid white; */
+  box-shadow:
+    0 4px 6px -6px #fff,
+    0 4px 8px -6px #fff,
+    0 4px 8px -6px #fff,
+    0 4px 8px -6px #fff;
+    border-radius: 20px;
+  align-items: center;
+  /* background-color: #f5e7c68a; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech_skill_container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  margin-top: 1rem;
+  /* width: 60vh; */
+
+  /* justify-content: start;
+  align-items: start; */
+}
+.tech_skill_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  justify-content: center;
+  gap:20px;
+  cursor: pointer;
+}
+
+
+
+.tech_skill_item > p{
+  opacity: 0.6;
+  font-size: 1rem;
+}
+
+.tech_skill_logo img{
+  height:60%;
+  background-size: cover;
+}

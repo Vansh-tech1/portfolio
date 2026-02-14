@@ -1,0 +1,24 @@
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import About from "./components/about/about";
+import Landing from "./components/landing/landing";
+import Navbar from "./components/navbar/navbar";
+import Skills from "./components/technicalskills/Skills";
+import Education from "./components/EducationPage/educationListing";
+import EducationCollection from "./components/EducationPage/educationCollection";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Landing />
+      <About />
+      <Skills />
+      <EducationCollection />
+    </>
+  );
+}
+
+export default App;

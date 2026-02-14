@@ -1,0 +1,87 @@
+.Navbar {
+  width: 78rem;
+  height: 80px;
+  background-color: #000;
+  /* border-bottom: 0.1px solid #ffffff29; */
+  margin-block: 2rem;
+  border-radius: 57px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow:
+    0 3px 6px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff,
+    0 2px 8px -6px #fff;
+  align-items: center;
+}
+.Navbar_Container {
+  display: flex;
+  justify-content: center;
+}
+.Navbar_Logo {
+  display: flex;
+  align-items: center;
+}
+.Navbar_Logo p {
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  color: #ff6d1f;
+  opacity: 1;
+  cursor: pointer;
+  /* text-shadow: 0px 1px 3px #b37351; */
+  font-family: Open Sans;
+  transform: scale(1);
+  transition:
+    transform 0.31s ease-in-out,
+    background-color 0.31s ease-in-out,
+    opacity 0.31s ease-in-out; /* smoother and explicit */
+}
+.Navbar_Logo p:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+.Navbar_Options {
+  color: #fff;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  align-items: center;
+}
+.Navbar_Options p {
+  margin-left: 1rem;
+}
+.Navbar_Resume_Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  transform-origin: center;
+  height: 4rem;
+}
+.Navbar_Resume_Btn button {
+  cursor: pointer !important;
+  opacity: 1;
+  height: 1rem;
+  padding: 1.5rem;
+  background-color: #cfcfcf46 !important;
+
+  transform: scale(1);
+  transition:
+    transform 0.31s ease-in-out,
+    background-color 0.31s ease-in-out,
+    opacity 0.31s ease-in-out; /* smoother and explicit */
+}
+.Navbar_Resume_Btn button:hover {
+  background-color: #ff6d1f !important;
+  opacity: 0.8;
+  transform: scale(1.1);
+
+  /* transition-behavior: smooth; */
+}
+.Navbar_Resume_Btn button p {
+  color: #fff;
+  margin: 0;
+  line-height: 1;
+}
