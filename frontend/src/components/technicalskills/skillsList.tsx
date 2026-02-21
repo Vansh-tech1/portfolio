@@ -35,6 +35,12 @@ export default function SkillsList({ skills }: SkillsListProps) {
           </>
         ))}
       </div>
+      <div className="skills_info">
+        <p>
+          Worked with these technologies and more, while continuously learning
+          to improve and expand my skill set.
+        </p>
+      </div>
     </div>
   );
 }

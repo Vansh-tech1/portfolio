@@ -6,7 +6,8 @@ import About from "./components/about/about";
 import Landing from "./components/landing/landing";
 import Navbar from "./components/navbar/navbar";
 import Skills from "./components/technicalskills/Skills";
-import Education from "./components/EducationPage/educationListing";
+// import Education from "./components/EducationPage/educationListing";
+import Contact from "./components/contactus/contact";
 import EducationCollection from "./components/EducationPage/educationCollection";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Skills />
       <EducationCollection />
+      <Contact />
     </>
   );
 }

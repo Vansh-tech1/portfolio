@@ -116,3 +116,8 @@
   height:60%;
   background-size: cover;
 }
+.skills_info p{
+  color: white;
+  opacity: 0.5;
+  margin-top: 3rem;
+}
