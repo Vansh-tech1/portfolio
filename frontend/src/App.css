@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 } */
+
+body {
+    /* background-color: #fff; */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}

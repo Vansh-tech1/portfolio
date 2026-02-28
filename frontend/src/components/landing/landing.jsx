@@ -48,24 +48,24 @@ export default function Landing() {
 
           <div className="tech_container">
             <div className="tech_list">
-              <img src={reactIcon} alt="" style={{height:"2.1rem"}} />
+              <img src={reactIcon} draggable={false} alt="" style={{height:"2.1rem"}} />
             </div>
             <div className="tech_list">
-              <img src={nodeIcon} alt="" style={{height:"5rem"}} />
+              <img src={nodeIcon} draggable={false} alt="" style={{height:"5rem"}} />
             </div>
             <div className="tech_list">
-              <img src={jsIcon} alt="" id="js_icon" />
+              <img src={jsIcon} draggable={false} alt="" id="js_icon" />
             </div>
             <div className="tech_list">
-              <img src={expressIcon} alt="" />
+              <img src={expressIcon} draggable={false} alt="" />
             </div>
             <div className="tech_list">
-              <img src={mongoIcon} alt="" />
+              <img src={mongoIcon} draggable={false} alt="" />
             </div>
           </div>
         </div>
         <div className="landing_Right">
-          <img src={LandingImage} alt="" />
+          <img src={LandingImage} draggable={false} alt="" />
         </div>
       </div>
     </>

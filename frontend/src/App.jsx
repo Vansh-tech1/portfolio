@@ -9,6 +9,7 @@ import Skills from "./components/technicalskills/Skills";
 // import Education from "./components/EducationPage/educationListing";
 import Contact from "./components/contactus/contact";
 import EducationCollection from "./components/EducationPage/educationCollection";
+import Eduinfo from "./components/edupage/eduinfo";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <EducationCollection />
       <Contact />
+      <Eduinfo />
     </>
   );
 }

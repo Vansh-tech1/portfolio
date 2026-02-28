@@ -42,7 +42,7 @@ export default function About() {
             </p>
           </div>
           <div className="view_certificate_btn">
-            <img src={eyeicon} alt="" id="eye_icon" />
+            <img src={eyeicon} alt=""  id="eye_icon" />
             <p> View Certificates</p>
           </div>
         </div>
