@@ -1,26 +1,27 @@
 .skills_container h1 {
   opacity: 1;
   z-index: 1;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 4.5rem;
 }
 .skills_container {
-  height: 20rem;
+  /* height: 20rem; */
   width: 100%;
   display: flex;
-  margin-top: 9rem;
+  margin-top: 12rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid black; */
 }
 .skills_container p {
-  color: white;
+  color: black;
   opacity: 0.5;
 }
 
 .skills_menu {
-  color: white;
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -32,6 +33,7 @@
   border-radius: 30px;
   display: flex;
   justify-content: center;
+  /* border: 1PX SOLID BLACK; */
   /* background-color: rgb(43, 43, 43); */
   /* padding-inline: 1rem;
   padding-block: 1.8rem; */
@@ -56,9 +58,10 @@
   padding-block: 0.5rem;
 }
 .skills_options_active {
-  background-color: rgb(32, 32, 32);
+  background-color: #379df1;
   font-size: 1.5rem;
   cursor: pointer;
+  color: white;
 
   display: flex;
   align-items: center;
@@ -73,11 +76,9 @@
   width: 10rem;
   /* border: 1px solid white; */
   box-shadow:
-    0 4px 6px -6px #fff,
-    0 4px 8px -6px #fff,
-    0 4px 8px -6px #fff,
-    0 4px 8px -6px #fff;
-    border-radius: 20px;
+    1px 5px 9px rgba(0, 0, 0, 0.15),
+    1px 5px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
   align-items: center;
   /* background-color: #f5e7c68a; */
   display: flex;
@@ -99,25 +100,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   justify-content: center;
-  gap:20px;
+  gap: 20px;
   cursor: pointer;
 }
 
-
-
-.tech_skill_item > p{
+.tech_skill_item > p {
   opacity: 0.6;
   font-size: 1rem;
+  color: black;
 }
 
-.tech_skill_logo img{
-  height:60%;
+.tech_skill_logo img {
+  height: 60%;
   background-size: cover;
 }
-.skills_info p{
-  color: white;
+.skills_info p {
+  color: black;
   opacity: 0.5;
   margin-top: 3rem;
+}
+
+
+.skills-wrapper{
+  margin-bottom: 10rem;
 }

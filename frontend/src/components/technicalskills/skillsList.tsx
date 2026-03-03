@@ -12,7 +12,7 @@ import "./skills.css";
 export default function SkillsList({ skills }: SkillsListProps) {
   // console.log(skills);
   return (
-    <div className="bg-background-black relative flex h-[600px] w-full flex-col items-center  overflow-hidden rounded-lg ">
+    <div className="bg-background-black relative flex h-[600px] w-full flex-col items-center  overflow-hidden rounded-lg skills-wrapper ">
       {/* <DotPattern
         className={cn(
           "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",

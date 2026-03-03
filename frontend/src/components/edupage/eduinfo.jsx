@@ -43,6 +43,7 @@ function Eduinfo() {
   return (
     <>
       <div className="edu-main-container">
+        <h1>ACADEMIC INFO</h1>
         <div className="edu-container">
           <div className="float-container">
             <div className="float-img">
@@ -72,17 +73,11 @@ function Eduinfo() {
                   </div>
                 );
               })}
-
-              {/* <p>JavaScript</p>
-              <p>ReactJS</p>
-              <p>NodeJS</p>
-              <p>ExpressJS</p>
-              <p>MongoDB</p>
-              <p>HTML</p>
-              <p>CSS</p> */}
             </div>
             <div className="float-contact">
-              <div className="float-contact-heading"></div>
+              <div className="float-contact-heading">
+                <p>Contact</p>
+              </div>
               <div className="float-contact-data"></div>
             </div>
           </div>

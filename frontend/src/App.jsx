@@ -18,9 +18,9 @@ function App() {
       <Landing />
       <About />
       <Skills />
-      <EducationCollection />
-      <Contact />
       <Eduinfo />
+      {/* <EducationCollection /> */}
+      <Contact />
     </>
   );
 }

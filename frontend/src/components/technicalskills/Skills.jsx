@@ -77,10 +77,10 @@ export default function Skills() {
               {item}
             </div>
           ))}
+          
         </div>
+        <SkillsList skills={filteredSkills} />
       </div>
-      <SkillsList skills={filteredSkills} />;
-      
     </>
   );
 }

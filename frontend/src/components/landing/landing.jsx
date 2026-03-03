@@ -38,7 +38,7 @@ export default function Landing() {
             </div>
           </div>
 
-          <h3>
+          <h3 className="landing-secondary-heading">
             Turning Ideas into Fast, Functional and <br />
             User-Focused{" "}
             <span className="highlighted_text_orange bold_text">

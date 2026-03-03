@@ -14,9 +14,13 @@
   background-color: white;
   margin-bottom: 5rem;
   display: flex;
+  margin-top: 2rem;
   align-items: center;
   /* justify-content: end; */
-  border: 1px solid white;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.15),
+    0 4px 10px rgba(0, 0, 0, 0.15);
+  /* border: 1px solid black; */
   border-radius: 10px;
   margin-inline: 1rem;
 }
@@ -31,7 +35,7 @@
   z-index: 1;
   padding: 0;
 }
-.edu-main-container{
+.edu-main-container {
   display: flex;
   justify-content: center;
 }
@@ -247,6 +251,26 @@
 .float-skills {
   width: 100%;
 }
-.float-skills-right{
+.float-skills-right {
   width: 50%;
+}
+
+.float-skills-heading {
+  padding-block: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.199);
+  margin-block: 1rem;
+}
+.float-contact {
+  width: 100%;
+}
+.float-contact-heading {
+  padding-block: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.199);
+  margin-block: 1rem;
 }
